@@ -1,0 +1,10 @@
+// Docker --
+docker build -t flask-app .
+docker run -p 4000:4000 --name Flask-Backend flask-app
+
+// Conectar por terminal *******************
+docker run -it flask-app /bin/sh // Corre un contenedor en "modo interactivo" especoficamente el shell del OS
+
+// Algunos comandos para compobrar instalaciones
+python3 --version
+pip --version
