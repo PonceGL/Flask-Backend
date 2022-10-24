@@ -1,0 +1,35 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+li,
+ol {
+  list-style: none;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: darkblue;
+  background-color: aliceblue;
+
+  display: grid;
+  grid-template-columns: 100vw;
+  grid-template-rows: auto 1fr auto;
+
+  transition: ease-in-out 0.3s all;
+}

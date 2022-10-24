@@ -1,5 +1,6 @@
 users = [
   {
+    "id": 1,
     "userName": "Carlos",
     "email": "carlos@mail.com",
     "password": "124567890",
@@ -7,6 +8,7 @@ users = [
     "permissionsId": 1
   },
   {
+    "id": 2,
     "userName": "PonceGL",
     "email": "poncegl@correo.com",
     "password": "124567890",
